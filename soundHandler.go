@@ -170,8 +170,9 @@ func QueueCheck(s disgord.Session, GuildID disgord.Snowflake, MessageChannelID d
 			}
 			go Playing(s, GuildID, MessageChannelID, ChannelID, AllQueues[i].Queue[0].URL, Params)
 		}
+	} else {
+		_ = vc.Close()
 	}
-	_ = vc.Close()
 }
 
 func QueueManagement(s disgord.Session, GuildID disgord.Snowflake, MessageChannelID disgord.Snowflake, ChannelID disgord.Snowflake, videoID string) {
