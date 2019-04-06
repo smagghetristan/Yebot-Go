@@ -9,7 +9,7 @@ import (
 )
 
 var buffer = make([][]byte, 0)
-var Token = "MzYxNDM3MzQzMzgwNDA2Mjcz.XKe8ag.dKh4xmSPF3sTdo5cmt-IQt-8K6I"
+var Token = "TOKEN"
 var prefix = "g!"
 var startTime = time.Now()
 
