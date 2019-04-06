@@ -1,10 +1,11 @@
 package main
 
 import (
-	"dca"
 	"io"
 	"strings"
 	"time"
+
+	"github.com/smagghetristan/dca"
 
 	"github.com/andersfylling/disgord"
 	"github.com/rylio/ytdl"
